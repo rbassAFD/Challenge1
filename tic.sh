@@ -88,7 +88,7 @@ function turn()
 	echo '-------------------------------'
 	echo "Tour: $TURN - Joueur: $PLAYER"
 	echo '-------------------------------'
-#Mettre l'API ici
+
 	read PLAY 
 	take_pos
 
