@@ -11,7 +11,7 @@ function montimer ()
     fi
 
     if [[ "SECONDS" -ge "60"]]
-    then ((HOURS++))
+    then ((MIN++))
         SECONDS="0"
     fi
 
